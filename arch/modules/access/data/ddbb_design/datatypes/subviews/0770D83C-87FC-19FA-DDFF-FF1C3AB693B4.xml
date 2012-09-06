@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.datatypes.DPVDataTypes" id="0770D83C-87FC-19FA-DDFF-FF1C3AB693B4">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:43:37 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-06-04 16:43:37 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>0</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.datatypes.TVStructuredType" oid="47E390DE-0671-C4B1-8428-0F45CBEE18F8" otype="StructuredType" vid="D76E1821-DDB2-C0B5-25E9-2A8C6A8A8F8A">
+         <bounds x="20" y="20" width="100" height="100"/>
+      </OView>
+   </objectViews>
+</Diagram>

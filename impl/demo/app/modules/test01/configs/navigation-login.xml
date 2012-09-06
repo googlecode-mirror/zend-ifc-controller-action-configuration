@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <navigation>
+        <login_ajax>
+            <label>AJAX LOGIN</label>
+            <title>Ajax login</title>
+            <module>test01</module>
+            <controller>login</controller>
+            <action>ajax-login</action>
+            <order>30</order>
+        </login_ajax>
+    </navigation>
+</config>

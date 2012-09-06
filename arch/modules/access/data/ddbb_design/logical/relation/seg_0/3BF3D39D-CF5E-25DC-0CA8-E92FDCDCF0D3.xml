@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ACTION_PROCESS" id="3BF3D39D-CF5E-25DC-0CA8-E92FDCDCF0D3" directorySegmentName="seg_0">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-07-24 11:11:00 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-07-24 11:16:37 UTC</changedTime>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <identifying>false</identifying>
+   <nameOnSource>PROCESS</nameOnSource>
+   <nameOnTarget>ACTION</nameOnTarget>
+   <optionalSource>false</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>B6EF6B79-9670-2C9F-898E-46D99B56EF0C</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>B6EF6B79-9670-2C9F-898E-46D99B56EF0C</targetEntity>
+   <transferable>true</transferable>
+</Relation>

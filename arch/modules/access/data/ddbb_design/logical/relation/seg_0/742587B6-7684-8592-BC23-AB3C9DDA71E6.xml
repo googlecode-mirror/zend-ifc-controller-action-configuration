@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ENVENT LOGGIN" id="742587B6-7684-8592-BC23-AB3C9DDA71E6" directorySegmentName="seg_0">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-11 19:38:09 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-06-25 18:11:25 UTC</changedTime>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <identifying>false</identifying>
+   <nameOnSource>ASSOCIATED</nameOnSource>
+   <nameOnTarget>HAS</nameOnTarget>
+   <optionalSource>false</optionalSource>
+   <optionalTarget>true</optionalTarget>
+   <sourceCardinality>1</sourceCardinality>
+   <sourceEntity>0EC5AC2A-8675-C592-27F7-09B0EE214E44</sourceEntity>
+   <targetCardinalityString>*</targetCardinalityString>
+   <targetEntity>B6EF6B79-9670-2C9F-898E-46D99B56EF0C</targetEntity>
+   <transferable>true</transferable>
+</Relation>

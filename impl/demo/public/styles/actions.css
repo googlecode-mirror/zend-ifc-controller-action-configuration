@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+/* INPUT GLOBAL SITE ACTIONS INTERFACE */
+
+form.siteInteraction span {
+  font-size: 0.9em;
+  color: #111111;
+}
+
+/* INPUT DATA INTERFACE ACTIONS INTO MENU */
+form.siteInteraction input {
+  vertical-align: middle;
+  height: 1.0em;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+}
+
+form.siteInteraction button {
+  height: 1.70em;
+  border-radius: 1em;
+  -moz-border-radius: 1em;
+  -webkit-border-radius: 1em;
+  width: 8em;
+}
+
+form.siteInteraction button:hover {
+  font-weight: bolder;
+}
+
+

@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DataTypesDesign class="oracle.dbtools.crest.model.design.datatypes.DataTypesDesign" name="DataTypes" id="009CFA48-B740-DCA5-BEFE-91709610F997" mainViewID="0770D83C-87FC-19FA-DDFF-FF1C3AB693B4">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:31:55 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-06-04 16:31:55 UTC</changedTime>
+   <ownerDesignName>DDBB v0-1</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</DataTypesDesign>

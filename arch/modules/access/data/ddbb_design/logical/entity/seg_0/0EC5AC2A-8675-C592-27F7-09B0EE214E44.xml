@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="0EC5AC2A-8675-C592-27F7-09B0EE214E44" directorySegmentName="seg_0" name="USER">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:47:02 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-08-27 23:10:17 UTC</changedTime>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <pkName>USER PK</pkName>
+   <typeID>4D89C5B3-E36A-ECF5-5B6E-1474FFAAECCC</typeID>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="IDENTIFIER" id="7BB6B457-CC03-82D3-7DB0-2F5DC85B9AC7">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-04 16:48:10 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-04 17:58:38 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="USER NAME" id="8A75722B-1721-7745-716A-18D2FBE190CD">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-04 16:57:22 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-04 19:24:46 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <domain>7A55C746-68E4-2CEF-BDAC-1F8A1251BE0F</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ACCESS PASSWORD" id="7B69D2F8-3873-3E93-607D-028A372C1FBC">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-04 16:59:22 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-04 19:24:50 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <domain>ABE2D737-E321-C1EF-FE9D-21132DD5ACB0</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ACCESS PASSWORD ALGORITHM" id="B8C032B4-89AA-C9BD-1C0A-41F735F276C3">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-11 17:27:37 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-11 17:27:53 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>012536AF-EF3B-2FE1-B966-F0F5E10326E5</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="ACCESS PASSWORD SALT" id="A420AD6D-8BA8-43C5-344D-2321DAA4B6DF">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-08-27 23:04:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:10:17 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>5500219D-96B4-1C18-06BE-31AADE3FD973</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EMAIL ADDRESS" id="EE840705-EF39-DC8E-5358-72A7075C98E1">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 16:03:41 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-25 16:12:02 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>12A7211D-6C89-CB55-83EA-F33F716197D6</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="STATE" id="E8F436B2-5653-BFAA-1574-676CD15B6F86">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-23 18:47:53 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-23 18:48:07 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+         <domain>9AD6A6D8-DBF3-D7D8-5F66-7AE1C2535757</domain>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="8C3EB695-E536-2E1A-DD0A-78A2E4C27EFF" name="E-MAIL ADDRESS">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-08-27 22:16:56 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 22:18:55 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <usedAttributes>
+            <attributeRef>EE840705-EF39-DC8E-5358-72A7075C98E1</attributeRef>
+         </usedAttributes>
+      </identifier>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="FDD05E4B-A26F-D76E-B402-2772C644872F" name="NATURAL KEY">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-04 19:25:07 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-11 17:41:57 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <usedAttributes>
+            <attributeRef>8A75722B-1721-7745-716A-18D2FBE190CD</attributeRef>
+         </usedAttributes>
+      </identifier>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="39CBEEEE-F6B4-C332-9EF3-438454ED486D" name="USER PK">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-04 16:57:21 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-11 19:37:43 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>7BB6B457-CC03-82D3-7DB0-2F5DC85B9AC7</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

@@ -1,0 +1,31 @@
+@CHARSET "UTF-8";
+
+
+form.dataRegistration td {
+  font-size: 1em;
+  color: #414141;
+}
+
+form.dataRegistration input {
+  font-family: monospace;
+  padding: 0.3em 0.3em 0.3em 0.3em;
+}
+
+form.dataRegistration em {
+  color: #AAAAAA;
+  font-size: 0.80em;
+}
+
+form.dataRegistration button {
+  padding: 0.25em;
+  border-radius: 0.2em;
+  -moz-border-radius: 0.2em;
+  -webkit-border-radius: 0.2em;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+form.dataRegistration button:hover {
+  text-decoration: blink;
+}
+

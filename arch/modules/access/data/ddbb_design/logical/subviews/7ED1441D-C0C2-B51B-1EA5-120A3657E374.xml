@@ -1,0 +1,45 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.logical.DPVLogical" name="Logical" id="7ED1441D-C0C2-B51B-1EA5-120A3657E374">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:43:37 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2012-05-07 21:21:54 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>0</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="0EC5AC2A-8675-C592-27F7-09B0EE214E44" otype="Entity" vid="CDA904BA-7325-413B-49DE-5FBC665817D2">
+         <bounds x="172" y="119" width="389" height="142"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.logical.TVEntity" oid="B6EF6B79-9670-2C9F-898E-46D99B56EF0C" otype="Entity" vid="561CBDB6-6AD6-2A0B-6227-F02581ABE350">
+         <bounds x="760" y="167" width="311" height="184"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.TVNote" oid="BBEEC51E-996C-1128-B2D7-EEF3B4F64C14" otype="Note" vid="4E01FED4-D3EC-5A7A-43B7-97A8DE5F8B77">
+         <bounds x="421" y="355" width="240" height="106"/>
+      </OView>
+   </objectViews>
+   <connectors>
+      <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="3BF3D39D-CF5E-25DC-0CA8-E92FDCDCF0D3" otype="Relation" vid_source="561CBDB6-6AD6-2A0B-6227-F02581ABE350" vid_target="561CBDB6-6AD6-2A0B-6227-F02581ABE350">
+         <lineWidth>1</lineWidth>
+         <points>
+            <point x="760" y="249"/>
+            <point x="1086" y="259"/>
+            <point x="1086" y="366"/>
+            <point x="915" y="366"/>
+            <point x="760" y="249"/>
+         </points>
+      </Connector>
+      <Connector class="oracle.dbtools.crest.swingui.logical.TVRelation" oid="742587B6-7684-8592-BC23-AB3C9DDA71E6" otype="Relation" vid_source="CDA904BA-7325-413B-49DE-5FBC665817D2" vid_target="561CBDB6-6AD6-2A0B-6227-F02581ABE350">
+         <lineWidth>1</lineWidth>
+         <points>
+            <point x="561" y="214"/>
+            <point x="760" y="214"/>
+         </points>
+      </Connector>
+   </connectors>
+</Diagram>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <navigation>
+        <home>
+            <label>Home</label>
+            <title>Home</title>
+            <controller>site</controller>
+            <action>home</action>
+            <order>0</order>
+        </home>
+        <about>
+            <label>About</label>
+            <title>About</title>
+            <controller>about</controller>
+            <action>general</action>
+            <order>60</order>
+            <pages>
+                <about_us>
+                    <label>Us</label>
+                    <title>The team</title>
+                    <controller>about</controller>
+                    <action>us</action>
+                    <order>0</order>
+                </about_us>
+                <about_sponsors>
+                    <label>Sponsors</label>
+                    <title>Our Sponsors</title>
+                    <controller>about</controller>
+                    <action>sponsors</action>
+                    <order>20</order>
+                </about_sponsors>
+            </pages>
+        </about>
+        <contact>
+            <label>Contact</label>
+            <title>Contact Us</title>
+            <controller>contact</controller>
+            <action>general</action>
+            <order>80</order>
+        </contact>
+        <join>
+            <label>Join</label>
+            <title>Join to us</title>
+            <controller>join</controller>
+            <action>info</action>
+            <order>90</order>
+            <pages>
+                <join_employee>
+                    <label>Employee</label>
+                    <title>As an employee</title>
+                    <controller>join</controller>
+                    <action>employee</action>
+                    <order>0</order>
+                </join_employee>
+                <join_partner>
+                    <label>Partner</label>
+                    <title>As a partner</title>
+                    <controller>join</controller>
+                    <action>partner</action>
+                    <order>20</order>
+                </join_partner>
+            </pages>
+        </join>
+        <test01>
+            <label>FORM PROOFS</label>
+            <title>Battery Test</title>
+            <module>test01</module>
+            <controller>keynote</controller>
+            <action>intro</action>
+            <order>100</order>
+            <active>1</active>
+            <!--
+            <pages>
+                <basic_forms>
+                    <label>BASIC CONFIG</label>
+                    <title>Basic form configurations</title>
+                    <module>test01</module>
+                    <controller>forms</controller>
+                    <action>ctrl-action-config</action>
+                    <order>0</order>
+                </basic_forms>
+            </pages>
+            -->
+        </test01>
+    </navigation>
+</config>

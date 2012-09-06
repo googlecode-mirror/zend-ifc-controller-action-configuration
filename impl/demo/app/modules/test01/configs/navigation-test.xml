@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <navigation>
+        <intro_forms>
+            <label>INTRO</label>
+            <title>Introduction to form configurations</title>
+            <module>test01</module>
+            <controller>keynote</controller>
+            <action>intro</action>
+            <order>0</order>
+        </intro_forms>
+        <basic_forms>
+            <label>BASIC CONFIG</label>
+            <title>Basic form configurations</title>
+            <module>test01</module>
+            <controller>forms</controller>
+            <action>ctrl-action-config</action>
+            <order>10</order>
+        </basic_forms>
+        <dojo_forms>
+            <label>DOJO</label>
+            <title>Dojo configurations</title>
+            <module>test01</module>
+            <controller>forms</controller>
+            <action>dojo-intro</action>
+            <order>20</order>
+            <pages>
+                <dojo_basic>
+                    <label>DOJO CONFIG</label>
+                    <title>Basic dojo configurations</title>
+                    <module>test01</module>
+                    <controller>forms</controller>
+                    <action>dojo-helper</action>
+                    <order>10</order>
+                </dojo_basic>
+                <dojo_zend_forms>
+                    <label>DOJO &amp; ZEND CONFIG</label>
+                    <title>Dojo and Zend forms configurations</title>
+                    <module>test01</module>
+                    <controller>forms</controller>
+                    <action>dojo-form-zend-config</action>
+                    <order>20</order>
+                </dojo_zend_forms>
+            </pages>
+        </dojo_forms>
+        <login>
+            <label>LOGIN</label>
+            <title>Simple login</title>
+            <module>test01</module>
+            <controller>login</controller>
+            <action>simple-login</action>
+            <order>30</order>
+        </login>
+        <home>
+            <label>BACK TO HOME</label>
+            <title>Home</title>
+            <controller>site</controller>
+            <action>home</action>
+            <order>1000</order>
+        </home>
+    </navigation>
+</config>

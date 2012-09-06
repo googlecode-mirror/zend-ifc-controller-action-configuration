@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+
+/**** CONTAINER STRUCTURE OF PAGE LAYOUT ****/
+
+/* HEADER */
+div.pageheader {
+  position: relative;
+  width: 100%;
+  min-width: 100%;
+}
+
+/* FOOTER */
+div.pagefooter {
+  position: relative;
+  width: 100%;
+  float: left;
+}
+
+/* BODY */
+div.pagebody {
+  position: relative;
+  width: 100%;
+  height: 97%;
+}
+
+div.pagebody div.main {
+  position: relative;
+  float:left;
+  width: 71%;
+}
+
+div.pagebody div.left {
+  position: relative;
+  float: left;
+  width: 14%;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+
+div.pagebody div.right {
+  position: relative;
+  float: right;
+  width: 14%;
+  margin: 2px 2px 2px 2px;
+  text-align: center;
+}
+
+
+div.blockCtn {
+  position: absolute;
+  float: left;
+}
+

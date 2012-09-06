@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <object objectType="Table" objectID="D5EB0FD3-3077-EF9F-C4CD-D7A59F8FFA8F" name="IFCMACC_EVENT_LOG" seqName="seg_0"/>
+   <object objectType="Table" objectID="521400BA-0FAA-D11E-B138-90CA6AFFFB73" name="IFCMACC_USERS" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="E4A4D9FB-D3FF-EAED-4CFE-11AF04ED45DD" name="EVENT_LOG_EVENT_LOG_FK" seqName="seg_0"/>
+   <object objectType="FKIndexAssociation" objectID="FD085368-4260-8584-C426-D3F7F45578EC" name="EVENT_LOG_USERS_FK" seqName="seg_0"/>
+</oracle.dbtools.crest.model.design.relational.RelationalDesign>

@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * IFC CONTROLLER ACTION CONFIGURATION & MODULES (ZEND FRAMEWORK)
+ *
+ * LICENSE
+ *
+ * This source file is subject to the new BSD license that is bundled
+ * with this package in the file LICENSE.txt.
+ *
+ * @copyright  Copyright (c) 2012 Ivan Fraixedes Cugat
+ * @license    New BSD License
+ * @author     Ivan Fraixedes Cugat
+ */
+
+namespace ifc\zend\modules\access;
+
+/**
+ * Description of Exception
+ */
+class Exception extends \ifc\zend\module\Exception {
+
+    public function setMessage(\ifc\zend\modules\access\logic\EventLogBuilderInterface $info) {
+        $eventLog = $info->getEventLog();
+        $this->message = $eventLog->getEventName() . ' ## ' .
+                $eventLog->getEventInfo();
+    }
+
+}

@@ -1,0 +1,175 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" id="B6EF6B79-9670-2C9F-898E-46D99B56EF0C" directorySegmentName="seg_0" name="EVENT LOG">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-11 17:43:07 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-08-27 17:43:01 UTC</changedTime>
+   <comment>This entity stores all event in the login operation in the web site.&amp;lt;br/&amp;gt;On the other hand, some event are used to control some login actions, for example:&amp;lt;br/&amp;gt;new user login (verification of ownership of the email address),  restoring forgotten password, etc.</comment>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <pkName>ATTEMPTED ENTRY LOG PK</pkName>
+   <typeID>4D89C5B3-E36A-ECF5-5B6E-1474FFAAECCC</typeID>
+   <adequatelyNormalized>NO</adequatelyNormalized>
+   <expectedVolumes>0</expectedVolumes>
+   <fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+   <growthPercent>0</growthPercent>
+   <growthType>Year</growthType>
+   <maxVolumes>9999999</maxVolumes>
+   <minVolumes>0</minVolumes>
+   <normalForm>Third</normalForm>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Attribute</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <attributes>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="IDENTIFIER" id="0795B9D1-D631-CC3B-F56D-FEE8DEDBA3A2">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-11 17:46:09 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 19:51:37 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EVENT TYPE" id="3618D112-E9C2-63A7-4EF7-410C243FC68B">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 08:46:30 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 08:46:47 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+         <domain>9AD6A6D8-DBF3-D7D8-5F66-7AE1C2535757</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EVENT CODE" id="43AB0970-ECCF-211E-2D4A-5704D864246C">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 08:45:35 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 08:46:28 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+         <domain>9AD6A6D8-DBF3-D7D8-5F66-7AE1C2535757</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EVENT NAME" id="3137D1A0-B797-FE79-1125-2A51D4555F8A">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-11 17:46:47 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 17:43:01 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>74B03771-1F6A-297D-C3C7-FEB822780F5C</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EVENT INFORMATION" id="7F7CED57-7B24-70C7-629B-71916B85AF50">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 15:37:07 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 08:48:11 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>78CAD548-2184-8C9E-54AE-9E438BBFF199</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="IP ADDRESS" id="2C9A208C-CB66-35C6-7203-0A2CE7A85F7F">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-11 17:48:14 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 17:57:26 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>43B012AA-AD63-96C0-49DD-0992D8137E83</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TIMESTAMPED" id="E83ECCBA-D78E-EC46-DD6C-515AB6E17E28">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-11 17:48:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 12:22:12 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="TIMESTAMPED MICROSECONDS" id="C3C3DA79-783C-CDC7-DDA3-FAC9F8EE2F21">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-11 18:22:39 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-11 18:45:26 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="USER IDENTIFIER" id="62B7C314-04F3-E71D-2FB0-0C2E026728CB">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 16:15:03 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-06-25 16:15:03 UTC</changedTime>
+         <generatorID>742587B6-7684-8592-BC23-AB3C9DDA71E6</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>7BB6B457-CC03-82D3-7DB0-2F5DC85B9AC7</referedAttribute>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+      </Attribute>
+      <Attribute class="oracle.dbtools.crest.model.design.logical.Attribute" name="EVENT LOG IDENTIFIER" id="67E071A2-802F-7324-A2C3-04B7FDBCB297">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 11:11:00 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 11:11:00 UTC</changedTime>
+         <generatorID>3BF3D39D-CF5E-25DC-0CA8-E92FDCDCF0D3</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <referedAttribute>0795B9D1-D631-CC3B-F56D-FEE8DEDBA3A2</referedAttribute>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+      </Attribute>
+   </attributes>
+   <identifiers>
+      <identifier class="oracle.dbtools.crest.model.design.logical.CandidateKey" id="D13B6158-21BB-7F7E-D5A6-D75491035866" name="OPERATION LOG PK">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 15:37:36 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-24 11:16:37 UTC</changedTime>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <pk>true</pk>
+         <usedAttributes>
+            <attributeRef>0795B9D1-D631-CC3B-F56D-FEE8DEDBA3A2</attributeRef>
+         </usedAttributes>
+      </identifier>
+   </identifiers>
+</Entity>

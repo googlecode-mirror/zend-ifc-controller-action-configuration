@@ -1,0 +1,45 @@
+<script type="text/javascript">
+
+function sendForm() {
+        //var loginForm = dijit.byId("accessValidation");
+        var loginForm = dojo.byId("accessValidation");
+
+        dojo.connect(loginForm, "onsubmit", function(e) {
+            //Stop the submit event since we want to control form submission.
+            dojo.stopEvent(e);
+
+            var checkForm = dijit.byId("accessValidation");
+
+            if (!checkForm.validate()) return flalse;
+
+//            var res = this.isValid();
+
+            //The parameters to pass to xhrPost, the form, how to handle it, and the callbacks.
+            //Note that there isn't a url passed.  xhrPost will extract the url to call from the form's
+            //'action' attribute.  You could also leave off the action attribute and set the url of the xhrPost object
+            //either should work.
+            var xhrArgs = {
+                form: dojo.byId("accessValidation"),
+                handleAs: "json",
+                //preventCache: true,
+                load: function(data, ioargs) {
+                    var obj = dojo.fromJson(data);
+                    dojo.byId("response").innerHTML = "The server reply is: " + obj.msg;
+                },
+                error: function(error, ioargs) {
+                    //We'll 404 in the demo, but that's okay.  We don't have a 'postIt' service on the
+                    //docs server.
+                    dojo.byId("response").innerHTML = "Error: " + ioargs.xhr.status;
+                }
+            }
+            //Call the asynchronous xhrPost
+            dojo.byId("response").innerHTML = "Form being sent..."
+
+            var deferred = dojo.xhrPost(xhrArgs);
+        });
+    }
+    dojo.addOnLoad(sendForm);
+</script>
+
+<?php echo $this->form; ?>
+<span id="response"></span>

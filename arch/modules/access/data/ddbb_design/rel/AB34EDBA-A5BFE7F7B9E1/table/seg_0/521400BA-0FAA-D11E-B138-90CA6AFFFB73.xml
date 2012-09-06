@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="521400BA-0FAA-D11E-B138-90CA6AFFFB73" directorySegmentName="seg_0" name="IFCMACC_USERS">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-08-27 23:14:05 UTC</changedTime>
+   <generatorID>0EC5AC2A-8675-C592-27F7-09B0EE214E44</generatorID>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <pkName>USER_PK</pkName>
+   <typeID>4D89C5B3-E36A-ECF5-5B6E-1474FFAAECCC</typeID>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="EA51B3CE-518B-9444-99D2-D3395EB1216A">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>7BB6B457-CC03-82D3-7DB0-2F5DC85B9AC7</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="USR_NAME" id="2A6CD844-7486-E0ED-2595-D53F22D9487B">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>8A75722B-1721-7745-716A-18D2FBE190CD</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <domain>7A55C746-68E4-2CEF-BDAC-1F8A1251BE0F</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ACC_PWD" id="EF4A4FFD-7217-9E73-1985-E7BCBE038E23">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>7B69D2F8-3873-3E93-607D-028A372C1FBC</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT025</logicalDatatype>
+         <domain>ABE2D737-E321-C1EF-FE9D-21132DD5ACB0</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ACC_PWD_ALGRTHM" id="B1D9CCBB-C598-49C7-059A-1147526E3AE2">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>B8C032B4-89AA-C9BD-1C0A-41F735F276C3</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>012536AF-EF3B-2FE1-B966-F0F5E10326E5</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ACC_PWD_SALT" id="3EEC485A-614B-7A48-4823-6D5C4D8E469C">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-08-27 23:10:29 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:45 UTC</changedTime>
+         <generatorID>A420AD6D-8BA8-43C5-344D-2321DAA4B6DF</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>5500219D-96B4-1C18-06BE-31AADE3FD973</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EMAIL_ADDR" id="F64BB2AF-18C5-A92F-731C-F87343D29AD9">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>EE840705-EF39-DC8E-5358-72A7075C98E1</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>12A7211D-6C89-CB55-83EA-F33F716197D6</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="STATE" id="1E666C96-567D-CB49-8B3B-E2EAD1FC5E13">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-23 18:48:15 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-07-23 18:48:15 UTC</changedTime>
+         <generatorID>E8F436B2-5653-BFAA-1574-676CD15B6F86</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+         <domain>9AD6A6D8-DBF3-D7D8-5F66-7AE1C2535757</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="36B927F3-0702-3146-F226-D4DB5FA6380F" name="USERS_PK">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>39CBEEEE-F6B4-C332-9EF3-438454ED486D</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="EA51B3CE-518B-9444-99D2-D3395EB1216A"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="592E48DD-67E0-9D8C-7CB6-D54CB9A3F6B0" name="USERS_USR_NAME_UN">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>FDD05E4B-A26F-D76E-B402-2772C644872F</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <indexState>Unique Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="2A6CD844-7486-E0ED-2595-D53F22D9487B"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="147F141B-B14A-1951-FFF1-61191A07BADF" name="USERS_EMAIL_ADDR_UN">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-08-27 22:18:59 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>8C3EB695-E536-2E1A-DD0A-78A2E4C27EFF</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <indexState>Unique Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="F64BB2AF-18C5-A92F-731C-F87343D29AD9"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>

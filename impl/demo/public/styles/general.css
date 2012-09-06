@@ -1,0 +1,92 @@
+@CHARSET "UTF-8";
+
+/**** GENEAL STYLES ****/
+
+body {
+  font-family: Arial,sans-serif;
+  line-height: 1.0;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #00FF00;
+}
+
+h2 {
+  font-size: 2.0em;
+  font-weight: bold;
+  color: #00FF00;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #00FF00;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: normal;
+  color: #00FF00;
+}
+
+h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #00FF00;
+}
+
+h6 {
+  font-size: 1.2em;
+  font-weight: normal;
+  color: #00FF00;
+}
+
+p {
+  font-size: 1.0em;
+  font-weight: normal;
+}
+
+a {
+  font-size: 1em;
+  color: #0F67A1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.additional {
+  font-size: 0.75em;
+}
+
+span {
+   vertical-align: middle;
+}
+
+
+/**** USER INPUT ELEMENTS ****/
+input {
+  font-size: 0.88em;
+  color: #333333;
+  border-style: double;
+  border-width: 1px;
+  border-color: #0F67A1;
+  text-align: left;
+  vertical-align: middle;
+  padding: 0.15em 0.3em 0.15em 0.3em;
+}
+
+button {
+  background-color: #0F67A1;
+  color: #CCCCCC;
+  font-size: 0.80em;
+  border-style: solid;
+  border-color: #FFFFFF;
+  padding: 1px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}

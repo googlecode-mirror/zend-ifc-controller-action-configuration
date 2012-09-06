@@ -1,0 +1,54 @@
+<?php echo $this->doctype() ?>
+<html>
+    <head>
+        <?php echo $this->headTitle(); ?>
+        <base href="<?php  echo $this->baseUrl();?>">
+        <?php echo $this->headMeta(); ?>
+        <?php echo $this->headLink(); ?>
+        <?php echo $this->headScript(); ?>
+
+       <?php
+	        if ($this->dojo()->isEnabled()) {
+    	        echo $this->dojo();
+        	}
+        ?>
+    </head>
+
+        <body class="
+        <?php if(isset($this->dojoBodyCss))
+                echo $this->dojoBodyCss;
+              else if ($this->dojo()->isEnabled())
+                    echo 'soria'; ?>
+         ">
+        <div style="position: fixed; height: 96%; width: 100%;">
+            <div class="pageheader">
+                BANNER
+            </div>
+            <div class="pagebody">
+
+                <div class="left"><span>Left side</span><br/><span>something</span></div>
+                <div class="main">
+                    <div class="menu">
+                        <?php echo $this->navigation()->menu()->renderMenu(null, array('ulClass' => 'mainMenu')); ?>
+                    </div>
+                    <div class="blockCtn" style="top: 4em; padding-top: 0.15em; width: 100%;">
+                        <p> <?php echo $this->layout()->content; ?></p>
+                    </div>
+                </div>
+                <div class="right"><span>Right side</span><br/><span>something</span></div>
+            </div>
+            <div class="pagefooter">FOTTER</div>
+        </div>
+
+        <script type="text/javascript">
+
+            $("div.menu ul.mainMenu>li").mouseenter(function() {
+                $(this).children("ul").fadeIn();
+            });
+
+            $("div.menu ul.mainMenu>li").mouseleave(function() {
+                $(this).children("ul").fadeOut();
+            });
+        </script>
+    </body>
+</html>

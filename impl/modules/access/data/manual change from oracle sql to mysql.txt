@@ -1,0 +1,3 @@
+Change VARCHAR2 to VARCHAR
+Change Create index of primary with intergrated primary if you want to use AUTO_INCREMENT
+If you want to use MYSQL DATETIME then to has to change manually

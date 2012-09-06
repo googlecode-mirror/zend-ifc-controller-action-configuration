@@ -1,0 +1,42 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Diagram class="oracle.dbtools.crest.swingui.relational.DPVRelational" name="Relational" id="A825876C-C78B-FAF3-F4D9-DE3832ADE50C">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:43:37 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2012-05-07 21:21:54 UTC</changedTime>
+   <autoRoute>false</autoRoute>
+   <boxInbox>true</boxInbox>
+   <showLegend>false</showLegend>
+   <showLabels>false</showLabels>
+   <showGrid>false</showGrid>
+   <diagramColor>-1</diagramColor>
+   <display>false</display>
+   <notation>0</notation>
+   <objectViews>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="521400BA-0FAA-D11E-B138-90CA6AFFFB73" otype="Table" vid="CEA34E9F-416F-306E-82BA-93BFCFED1C4B">
+         <bounds x="172" y="119" width="389" height="142"/>
+      </OView>
+      <OView class="oracle.dbtools.crest.swingui.relational.TVTable" oid="D5EB0FD3-3077-EF9F-C4CD-D7A59F8FFA8F" otype="Table" vid="8DE8F9AD-5A08-4025-02B0-15C910EF6D4E">
+         <bounds x="760" y="167" width="311" height="184"/>
+      </OView>
+   </objectViews>
+   <connectors>
+      <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="E4A4D9FB-D3FF-EAED-4CFE-11AF04ED45DD" otype="FKIndexAssociation" vid_source="8DE8F9AD-5A08-4025-02B0-15C910EF6D4E" vid_target="8DE8F9AD-5A08-4025-02B0-15C910EF6D4E">
+         <lineWidth>1</lineWidth>
+         <points>
+            <point x="1071" y="259"/>
+            <point x="1086" y="259"/>
+            <point x="1086" y="366"/>
+            <point x="915" y="366"/>
+            <point x="915" y="351"/>
+         </points>
+      </Connector>
+      <Connector class="oracle.dbtools.crest.swingui.relational.TVFKRelation" oid="FD085368-4260-8584-C426-D3F7F45578EC" otype="FKIndexAssociation" vid_source="CEA34E9F-416F-306E-82BA-93BFCFED1C4B" vid_target="8DE8F9AD-5A08-4025-02B0-15C910EF6D4E">
+         <lineWidth>1</lineWidth>
+         <points>
+            <point x="561" y="214"/>
+            <point x="760" y="214"/>
+         </points>
+      </Connector>
+   </connectors>
+</Diagram>

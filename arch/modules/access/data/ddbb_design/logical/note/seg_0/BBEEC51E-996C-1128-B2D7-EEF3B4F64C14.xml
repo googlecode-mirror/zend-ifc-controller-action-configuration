@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Note class="oracle.dbtools.crest.model.design.Note" name="Note_1" id="BBEEC51E-996C-1128-B2D7-EEF3B4F64C14" directorySegmentName="seg_0">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-25 16:43:55 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-07-24 11:10:20 UTC</changedTime>
+   <comment>EVENT LOG entity stores all events that implicate operations in system access.&amp;lt;br/&amp;gt;On the other hand, some event are used to control some system access actions, for example:&amp;lt;br/&amp;gt;new users registration (verification of ownership of the email address),  restoring forgotten password, etc.</comment>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+</Note>

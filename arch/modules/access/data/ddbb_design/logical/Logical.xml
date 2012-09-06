@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="54B4640B-175E-1D26-885C-5CF82A69C580" mainViewID="7ED1441D-C0C2-B51B-1EA5-120A3657E374">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:31:55 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-06-04 19:20:17 UTC</changedTime>
+   <ownerDesignName>DDBB v0-1</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

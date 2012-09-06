@@ -1,0 +1,9 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="C7E198A0-41B7-5ACD-2CAC-87A6F3F99619">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:31:55 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-06-04 16:31:55 UTC</changedTime>
+   <ownerDesignName>DDBB v0-1</ownerDesignName>
+   <shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

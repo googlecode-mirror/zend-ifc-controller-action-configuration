@@ -1,0 +1,100 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html dir="ltr">
+    
+    <head>
+        <style type="text/css">
+            body, html { font-family:helvetica,arial,sans-serif; font-size:90%; }
+        </style>
+        <script src="http://ajax.googleapis.com/ajax/libs/dojo/1.6/dojo/dojo.xd.js"
+        djConfig="parseOnLoad: true">
+        </script>
+        <script type="text/javascript">
+            dojo.require("dijit.form.Button");
+            dojo.require("dijit.form.TextBox");
+            dojo.require("dijit.form.CheckBox");
+
+
+dojo.require("dijit.form.ValidationTextBox");
+    dojo.require("dijit.form.Form");
+    dojo.require("dojo.parser");
+dojo.addOnLoad(function() {
+    dojo.forEach(zendDijits, function(info) {
+        var n = dojo.byId(info.id);
+        if (null != n) {
+            dojo.attr(n, dojo.mixin({ id: info.id }, info.params));
+        }
+    });
+    dojo.parser.parse();
+});
+var zendDijits = [{"id":"username","params":{"regExp":"^([a-zA-Z0-9_]{6,30})$","required":"true","dojoType":"dijit.form.ValidationTextBox"}},{"id":"password","params":{"regExp":"^[\\x20-\\x7E]{8,30}$","required":"true","dojoType":"dijit.form.ValidationTextBox"}},{"id":"myform","params":{"dojoType":"dijit.form.Form"}}];
+
+
+
+
+
+            function sendForm() {
+                var form = dojo.byId("myform");
+
+                dojo.connect(form, "onsubmit", function(event) {
+                    //Stop the submit event since we want to control form submission.
+                    dojo.stopEvent(event);
+
+
+                    if (form.isValid()) {
+
+                    //The parameters to pass to xhrPost, the form, how to handle it, and the callbacks.
+                    //Note that there isn't a url passed.  xhrPost will extract the url to call from the form's
+                    //'action' attribute.  You could also leave off the action attribute and set the url of the xhrPost object
+                    //either should work.
+                    var xhrArgs = {
+                        form: dojo.byId("myform"),
+                        handleAs: "text",
+                        load: function(data) {
+                            dojo.byId("response").innerHTML = "Form posted.";
+                        },
+                        error: function(error) {
+                            //We'll 404 in the demo, but that's okay.  We don't have a 'postIt' service on the
+                            //docs server.
+                            dojo.byId("response").innerHTML = "Form posted.";
+                        }
+                    }
+                    //Call the asynchronous xhrPost
+                    dojo.byId("response").innerHTML = "Form being sent..."
+                    var deferred = dojo.xhrPost(xhrArgs);
+}
+                });
+            }
+            dojo.addOnLoad(sendForm);
+        </script>
+        <link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/dojo/1.6/dijit/themes/claro/claro.css"
+        />
+    </head>
+    
+    <body class=" claro ">
+        <b>
+            Simple Form:
+        </b>
+        <br>
+        <blockquote>
+            <form action="postIt" id="myform">
+               <dt id="username-label">&#160;</dt>
+<dd>
+<input id="username" name="username" value="" type="text"></dd>
+<dt id="password-label">&#160;</dt>
+<dd>
+<input id="password" name="password" value="" type="password"></dd>
+                <button type="submit" dojoType="dijit.form.Button" id="submitButton">
+                    Send it!
+                </button>
+            </form>
+        </blockquote>
+        <br>
+        <b>
+            Result
+        </b>
+        <div id="response">
+        </div>
+
+    </body>
+
+</html>

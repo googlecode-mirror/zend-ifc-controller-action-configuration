@@ -1,0 +1,15 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" id="FD085368-4260-8584-C426-D3F7F45578EC" directorySegmentName="seg_0" name="EVENT_LOG_USERS_FK">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+   <generatorID>742587B6-7684-8592-BC23-AB3C9DDA71E6</generatorID>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <containerWithKeyObject>D5EB0FD3-3077-EF9F-C4CD-D7A59F8FFA8F</containerWithKeyObject>
+   <deleteRule>SET NULL</deleteRule>
+   <localFKIndex>31AFA582-3D26-0989-A112-84C82C0949D3</localFKIndex>
+   <keyObject>36B927F3-0702-3146-F226-D4DB5FA6380F</keyObject>
+   <mandatory>false</mandatory>
+   <transferable>true</transferable>
+</FKIndexAssociation>

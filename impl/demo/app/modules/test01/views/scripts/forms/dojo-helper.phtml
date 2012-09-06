@@ -1,0 +1,17 @@
+<label for="q05">
+    Integer between -20000 to +20000:
+</label>
+
+<!-- Old style dojo declarative syntax
+<input id="q05" type="text" dojoType="dijit.form.NumberTextBox" name="elevation"
+       value="3000" constraints="{'min':-20000,'max':20000,'places':0}" required="true"
+       invalidMessage="Invalid elevation."/>
+-->
+
+<!-- Dojo declartive style HTML 5 compliant-->
+<input id="q05" type="text" data-dojo-type="dijit.form.NumberTextBox" name="elevation"
+       value="3000" data-dojo-props="constraints:{'min':-20000,'max':20000,'places':0}, required:'true', invalidMessage:'Invalid elevation.'"/>
+<br/>
+<?php echo $this->form; ?>
+
+

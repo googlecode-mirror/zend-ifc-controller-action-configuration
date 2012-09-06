@@ -1,0 +1,10 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ddbb_design" id="A8636225-1BA2-DBF8-F28B-331ED30DA44D" version="3.4">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-04 16:31:55 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-08-27 23:10:17 UTC</changedTime>
+   <ownerDesignName>DDBB v0-1</ownerDesignName>
+   <capitalNames>false</capitalNames>
+   <designId>A8636225-1BA2-DBF8-F28B-331ED30DA44D</designId>
+</OSDM_Design>

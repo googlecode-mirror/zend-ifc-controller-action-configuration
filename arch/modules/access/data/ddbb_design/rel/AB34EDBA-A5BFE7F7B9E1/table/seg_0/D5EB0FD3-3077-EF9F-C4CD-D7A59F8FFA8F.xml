@@ -1,0 +1,216 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" id="D5EB0FD3-3077-EF9F-C4CD-D7A59F8FFA8F" directorySegmentName="seg_0" name="IFCMACC_EVENT_LOG">
+   <createdBy>ifraixedes</createdBy>
+   <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+   <changedBy>ifraixedes</changedBy>
+   <changedTime>2011-08-27 23:14:05 UTC</changedTime>
+   <comment>This entity stores all event in the login operation in the web site.&amp;lt;br/&amp;gt;On the other hand, some event are used to control some login actions, for example:&amp;lt;br/&amp;gt;new user login (verification of ownership of the email address),  restoring forgotten password, etc.</comment>
+   <generatorID>B6EF6B79-9670-2C9F-898E-46D99B56EF0C</generatorID>
+   <ownerDesignName>ddbb_design</ownerDesignName>
+   <pkName>OPERATION_LOG_PK</pkName>
+   <typeID>4D89C5B3-E36A-ECF5-5B6E-1474FFAAECCC</typeID>
+   <fonts>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Title</foType>
+         <fontStyle>1</fontStyle>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Column</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Datatype</foType>
+         <colorRGB>-16744448</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>PK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>FK Element</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>UK Element</foType>
+         <colorRGB>-16776961</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Not Null</foType>
+         <colorRGB>-65536</colorRGB>
+      </FontObject>
+      <FontObject class="oracle.dbtools.crest.model.design.FontObjectWr">
+         <foType>Key</foType>
+         <colorRGB>-16777216</colorRGB>
+      </FontObject>
+   </fonts>
+   <columns>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="ID" id="9342A628-D274-C942-6C6B-04BFE0EAA50C">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>0795B9D1-D631-CC3B-F56D-FEE8DEDBA3A2</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EVT_TYPE" id="48A8A518-7612-0FA6-4318-0B03AD8A1A4C">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 08:49:53 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>3618D112-E9C2-63A7-4EF7-410C243FC68B</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+         <domain>9AD6A6D8-DBF3-D7D8-5F66-7AE1C2535757</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EVT_CODE" id="A8562D21-43A5-B5A2-24DF-A3DB102884EF">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 08:49:53 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>43AB0970-ECCF-211E-2D4A-5704D864246C</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT042</logicalDatatype>
+         <domain>9AD6A6D8-DBF3-D7D8-5F66-7AE1C2535757</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EVT_NAME" id="5E1953BE-9F28-1BFB-6EFD-FB41E7D4F670">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 17:43:34 UTC</changedTime>
+         <generatorID>3137D1A0-B797-FE79-1125-2A51D4555F8A</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>74B03771-1F6A-297D-C3C7-FEB822780F5C</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EVT_INFO" id="AC55DF8A-DB56-9A8C-35F6-7CBDD5E7FC7D">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>7F7CED57-7B24-70C7-629B-71916B85AF50</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>78CAD548-2184-8C9E-54AE-9E438BBFF199</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="IP_ADDR" id="EC4150C8-8459-8B04-A4CC-0ED22B0B83A7">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>2C9A208C-CB66-35C6-7203-0A2CE7A85F7F</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>0</use>
+         <logicalDatatype>LOGDT024</logicalDatatype>
+         <domain>43B012AA-AD63-96C0-49DD-0992D8137E83</domain>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TMSTD" id="373D2577-1528-D6DB-E733-75CD7FC53FBA">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>E83ECCBA-D78E-EC46-DD6C-515AB6E17E28</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT008</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="TMSTD_MCSEC" id="AFDA2F2F-5E16-CAF9-23C9-FF981E56464E">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-21 16:49:43 UTC</changedTime>
+         <generatorID>C3C3DA79-783C-CDC7-DDA3-FAC9F8EE2F21</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <use>1</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <previousColumn>false</previousColumn>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="USERS_ID" id="0498E393-9E25-23CB-C6FF-51F4275DC4AF">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>62B7C314-04F3-E71D-2FB0-0C2E026728CB</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+         <delegate>EA51B3CE-518B-9444-99D2-D3395EB1216A</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="FD085368-4260-8584-C426-D3F7F45578EC" referredColumn="EA51B3CE-518B-9444-99D2-D3395EB1216A"/>
+         </associations>
+      </Column>
+      <Column class="oracle.dbtools.crest.model.design.relational.Column" name="EVENT_LOG_ID" id="60A35418-3DA1-9BDC-18AE-227C83CF7BC0">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 11:13:42 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>67E071A2-802F-7324-A2C3-04B7FDBCB297</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <nullsAllowed>true</nullsAllowed>
+         <use>0</use>
+         <logicalDatatype>LOGDT011</logicalDatatype>
+         <domain>4B181A4D-3FBC-49BF-DCA1-8D2C22C35EB6</domain>
+         <delegate>9342A628-D274-C942-6C6B-04BFE0EAA50C</delegate>
+         <previousColumn>false</previousColumn>
+         <associations>
+            <colAssociation fkAssociation="E4A4D9FB-D3FF-EAED-4CFE-11AF04ED45DD" referredColumn="9342A628-D274-C942-6C6B-04BFE0EAA50C"/>
+         </associations>
+      </Column>
+   </columns>
+   <indexes>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="BC13D85E-EE06-8A65-6BA8-DB1396631FD3" name="EVENT_LOG_PK">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:45 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>D13B6158-21BB-7F7E-D5A6-D75491035866</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <pk>true</pk>
+         <indexState>Primary Constraint</indexState>
+         <indexColumnUsage>
+            <colUsage columnID="9342A628-D274-C942-6C6B-04BFE0EAA50C"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="31AFA582-3D26-0989-A112-84C82C0949D3" name="EVENT_LOG_USERS_FK">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-06-25 17:00:46 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>742587B6-7684-8592-BC23-AB3C9DDA71E6</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="0498E393-9E25-23CB-C6FF-51F4275DC4AF"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+      <ind_PK_UK class="oracle.dbtools.crest.model.design.relational.Index" id="43E34DC5-96ED-E6C3-C388-3098B4FB8229" name="EVENT_LOG_EVENT_LOG_FK">
+         <createdBy>ifraixedes</createdBy>
+         <createdTime>2011-07-24 11:13:42 UTC</createdTime>
+         <changedBy>ifraixedes</changedBy>
+         <changedTime>2011-08-27 23:13:52 UTC</changedTime>
+         <generatorID>3BF3D39D-CF5E-25DC-0CA8-E92FDCDCF0D3</generatorID>
+         <ownerDesignName>ddbb_design</ownerDesignName>
+         <indexColumnUsage>
+            <colUsage columnID="60A35418-3DA1-9BDC-18AE-227C83CF7BC0"/>
+         </indexColumnUsage>
+      </ind_PK_UK>
+   </indexes>
+</Table>
